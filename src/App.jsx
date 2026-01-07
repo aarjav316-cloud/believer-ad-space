@@ -53,6 +53,25 @@ function App() {
         </div>
       </section>
 
+      {/* Disclaimer Banner */}
+      <section className="disclaimer-banner">
+        <div className="container">
+          <div className="disclaimer-banner-content">
+            <div className="disclaimer-banner-icon">⚖️</div>
+            <p className="disclaimer-banner-text">
+              Political and social issue advertisements published through
+              Believer Ad Space are managed and paid for by Believer Ad Space
+              unless otherwise stated. Believer Ad Space complies with Meta's
+              advertising transparency and applicable Indian laws. For queries,
+              contact:{" "}
+              <a href="mailto:support@believerad.space">
+                support@believerad.space
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section id="services" className="services">
         <div className="container">
@@ -174,7 +193,7 @@ function App() {
             <div className="contact-info">
               <div className="contact-item">
                 <span className="contact-icon">📧</span>
-                <span>hello@believeradspace.com</span>
+                <span>support@believerad.space</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📱</span>
@@ -217,8 +236,9 @@ function App() {
           </div>
           <div className="footer-bottom">
             <p>
-              &copy; 2026 Believer Ad Space. Founded by Aatam Gandhi. All rights
-              reserved.
+              &copy; 2026 Believer Ad Space | Owned and operated by Aatam Gandhi
+              | Ashoknagar, Madhya Pradesh, India | Contact:
+              support@believerad.space
             </p>
           </div>
         </div>
